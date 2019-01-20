@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jewelry World</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="navBar.css">
+
+
+<style>
+.container {
+            
+            margin-left: 8%;
+        }
+
+.content {
+            max-width: 980px;
+            margin: auto;
+            font-size: 120%;
+            text-align: justify;
+            margin-top: 2%;
+        }
+
+</style>
+
+</head>
+
+<body class="body">
+
+<div id="svg">
+<svg height="140" width="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(51,255,153);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(14,130,184);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+ <ellipse cx="50%" cy="70" rx="200" ry="55" fill="url(#grad1)" />
+							- разположение, радиуси
+  <text  fill="#000000" font-size="50" font-family="Verdana" x="37%" y="80">Jewelry World</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+</div>
+
+
+<nav class="nav">
+<ul class="ul1">
+  <li class="li1"><a href="MainPage.html">Начало</a></li>
+  <li class="li1"><a href="firm.html">За фирмата</a></li>
+  <li class="li1 ">
+  <li class="dropdown li1">
+  <button class="dropbtn">За собственика</button>
+  <div class="dropdown-content">
+    <a href="myCV.html">CV</a>
+    <a href="music.html">Музика</a>
+    <a href="movie.html">Филми</a>
+  </div>
+</div>
+</li>
+  <li class="li1"><a href="products.html">Продукти</a></li>
+  <li class="li1"><a href="orders.html">Поръчки</a></li>
+  <li class="li1"><a href="opinion.html">Мнения</a></li>
+</ul>
+</nav>
+
+<div class="container">
+<img class="Slides" src="pics/sale.jpg" height="300" width=900">
+<img class="Slides" src="pics/j1.jpg" height="300" width=900">
+<img class="Slides" src="pics/j2.jpg" height="300" width=900">
+<img class="Slides" src="pics/earrings.jpg" height="300" width=900">
+
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000);
+}
+</script>
+
+<div class="ad">
+<img src="pics/cola.png" alt="coca-cola" width="350px" class="animated swing">
+        
+</div>
+
+    <section class="content">
+        <h2 style="text-align:center">Нашето вдъхновение</h2>
+        <p>Наш безкраен извор за вдъхновение са съвременните и независими жени. Жените, които се развиват, които подчертават своята идентичност и се отличават, независимо от мястото, на което се намират – от големите мегаполиси до малките градчета.</p>
+        <h2 style="text-align:center">Защо нас?</h2>
+        <p>Нашите бижута са предназначени за жените, които се отличават. Жените, които залагат на своя собствен стил и индивидуалност. Нашият млад и амбициозен екип поема отговорната задача да е винаги запознат със световните тенденциите и всеки сезон да селектира за вас – тези жени, само актуални бижута на напълно достъпни цени. Ние влагаме своята събрана експертиза на 100%, за да изберем и да ви предоставим само уникални бижута – такива, с които да блестите ден и нощ.</p>
+        <h2 style="text-align:center">Нашата философия </h2>
+        <p>Със съчетание от различните модни стилове и щипка индивидуалност, ние оставаме винаги в крак с модните тенденции. </p>
+    </section>
+
+
+
+<div></div>
+<footer>
+<div>Copyright 2017 © Neli Petrova</div>
+</footer>
+</body>
+
+</html>

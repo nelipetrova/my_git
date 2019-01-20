@@ -1,0 +1,110 @@
+ #svg {
+            background-color:#666666; 
+           
+            
+      } 
+
+
+ .body {
+            font-family: sans-serif;
+            margin:0%;        
+            background-image: url("pics/bgr.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        
+        }
+
+
+ .nav {
+            margin-top:0px;
+            font-size: 25px;
+            text-align: center;
+            background-color: black;
+            
+                                 
+        }
+ .ul1 {
+               margin: 0%;    
+
+        }
+ 
+
+ .li1 {
+            display: inline;
+           
+        }
+        
+ .nav a {
+             
+             color: #00cc99;
+             text-decoration: none;
+             padding: 10px 18px;
+        }
+
+ .dropdown {
+            
+            position: relative;
+            display: inline-block; 
+        }
+.dropdown .dropbtn{
+            font-size: 25px; 
+            border: none;
+            outline: none;
+            color: #00cc99;
+            padding: 15px 18px;
+            background-color: inherit;
+
+        }
+
+.nav a:hover, .dropdown:hover .dropbtn {
+            background-color: #003326;
+            
+        }
+.dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 20px 0px;
+            z-index: 1;
+        }
+
+
+.dropdown-content a {
+            color: #00cc99;
+            
+            min-width: 180px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            font-size: 90%;
+        }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.ad {       margin-top: 2%;
+            width:350px;
+            position: fixed;
+            right:2%;
+            top:28%;
+            z-index:-1;
+
+
+
+           
+        }
+
+footer {
+            
+            float: left;
+            width: 100%;
+            font-size: 90%;
+            padding-top: 48px;
+            padding-bottom: 48px;
+            margin-top: 15%;
+            text-align: center;
+        }
+
